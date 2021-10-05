@@ -7,9 +7,10 @@
 }
 
 .container {
-  width: clamp(480px, 50%, 800px);
+  display: flex;
+  width: clamp(480px, 42%, 800px);
   height: 90%;
   margin: auto;
   background-color: var(--light-pink);
-  border-radius: 15px;
+  border-radius: 20px;
 }

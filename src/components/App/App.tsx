@@ -1,14 +1,14 @@
 import { FC } from 'react';
-import cn from 'classnames/bind';
 
+import {Calculator} from "../Calculator";
 import styles from './App.module.css';
-
-const cx = cn.bind(styles);
 
 export const App: FC = () => {
   return (
     <div className={styles.page}>
-      <div className={styles.container} />
+      <div className={styles.container}>
+        <Calculator />
+      </div>
     </div>
   )
 }
