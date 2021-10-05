@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 
+import './shared/styles/pallete.css';
+import './vendor/normalize.css'
 import {App} from './components/App';
 
 ReactDOM.render(

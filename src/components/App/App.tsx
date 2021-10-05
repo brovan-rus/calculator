@@ -7,6 +7,8 @@ const cx = cn.bind(styles);
 
 export const App: FC = () => {
   return (
-    <div className={cx('page')}><h1>Hello world!</h1></div>
+    <div className={styles.page}>
+      <div className={styles.container} />
+    </div>
   )
 }
