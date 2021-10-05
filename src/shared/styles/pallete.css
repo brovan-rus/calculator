@@ -1,4 +1,10 @@
 :root {
   --pink: #ff9595;
-  --light-pink: #fba2a2;
+  --lightPink: #fba2a2;
+  --white: #e2e6ec;
+  --gray: #6589be;
+  --darkBlue: rgba(2, 0, 36, 1);
+  --blue: rgba(41, 82, 144, 1);
+  --lightBlue: rgba(55, 112, 196, 1);
+  --mateBlue: #4b78bd;
 }

@@ -8,9 +8,9 @@
 
 .container {
   display: flex;
-  width: clamp(480px, 42%, 800px);
+  width: clamp(480px, 44%, 800px);
   height: 90%;
   margin: auto;
-  background-color: var(--light-pink);
+  background-color: var(--lightPink);
   border-radius: 20px;
 }

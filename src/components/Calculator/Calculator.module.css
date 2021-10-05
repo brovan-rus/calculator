@@ -1,10 +1,10 @@
 .container {
   display: grid;
-  width: 90%;
+  width: 85%;
   height: 95%;
   margin: auto;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(173deg, rgba(2, 0, 36, 1) 0%, rgba(41, 82, 144, 1) 0%, rgba(55, 112, 196, 1) 100%);
+  background: var(--darkBlue);
+  background: linear-gradient(173deg, var(--darkBlue) 0%, var(--blue) 0%, var(--lightBlue) 100%);
   border-radius: 15px;
   box-shadow: 2px 5px 16px 0 rgba(0, 0, 0, .7);
   grid-template-columns: 100%;
