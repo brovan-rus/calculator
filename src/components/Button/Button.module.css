@@ -22,8 +22,13 @@
   opacity: .65;
 }
 
+.container:active {
+  transform: scale(1.075);
+}
+
 .container:hover {
   background-color: var(--mateBlue);
+  cursor: pointer;
 }
 
 .container:focus {
@@ -31,8 +36,9 @@
   outline: 0;
 }
 
-.container:active {
-  transform: scale(1.075);
+.container:disabled:hover {
+  cursor: inherit;
+  background: transparent;
 }
 
 .font {

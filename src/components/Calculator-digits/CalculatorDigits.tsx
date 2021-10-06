@@ -24,7 +24,11 @@ export const CalculatorDigits: FC<ICalculatorDigitsProps> = ({onEnter, onReset, 
           return <Button symbol={digit} isWhite key={digit} onClick={onResult} />;
         } else if (digit === 'C') {
           return <Button symbol={digit} key={digit} onClick={onReset} />;
-        } else {
+        }
+        else if (digit === ' ') {
+          return <Button symbol={digit} key={digit} onClick={onReset} disabled={true}/>;
+        }
+        else {
           return <Button symbol={digit} key={digit} onClick={() => handleButtonClick(digit)} />;
         }
       })}
