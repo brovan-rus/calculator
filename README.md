@@ -6,6 +6,13 @@
 * TypeScript
 * Eslint, StyleLint, Prittier
 
+## Компоненты:
+* App - контейнер для приложения
+* Calculator - непосредственно калькулятор
+* Button - клавиша калькулятора
+* CalculatorDigits - секция с клавишами, куда в Grid рендерятся клавиши.
+* CalculatorDisplay - дисплей калькулятора с двумя стоками - выражением и резульатом.
+
 ## Команды
 Запуск приложения - **npm run start**
 Линтеры - npm run **lint:js** и **lint:js**
