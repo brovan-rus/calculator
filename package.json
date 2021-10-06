@@ -31,7 +31,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint:js": "eslint src/** --cache --ext .jsx,.js,.tsx,.ts",
+    "lint:js": "eslint src/** --cache --ext .jsx,.js,.tsx,.ts --fix",
     "lint:css": "stylelint **/*.css --cache --allow-empty-input --fix"
   },
   "eslintConfig": {

@@ -1,0 +1,45 @@
+.container {
+  display: grid;
+  box-sizing: border-box;
+  flex-direction: row;
+  align-content: end;
+  padding: 10px 20px;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, max-content);
+  row-gap: 15px;
+}
+
+.font {
+  color: var(--white);
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 40px;
+  text-align: right;
+}
+
+.primaryLine {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.primaryLine::before {
+  color: var(--red);
+  content: 'E';
+  visibility: hidden;
+}
+
+.isError::before {
+  visibility: visible;
+}
+
+.secondaryLine {
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  font-weight: normal;
+}
