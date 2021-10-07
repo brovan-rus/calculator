@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/brovan-rus/calculator/static/css/main.481bd211.chunk.css",
-    "main.js": "/brovan-rus/calculator/static/js/main.4c73e597.chunk.js",
-    "main.js.map": "/brovan-rus/calculator/static/js/main.4c73e597.chunk.js.map",
-    "runtime-main.js": "/brovan-rus/calculator/static/js/runtime-main.f3f8f59e.js",
-    "runtime-main.js.map": "/brovan-rus/calculator/static/js/runtime-main.f3f8f59e.js.map",
-    "static/js/2.70040d63.chunk.js": "/brovan-rus/calculator/static/js/2.70040d63.chunk.js",
-    "static/js/2.70040d63.chunk.js.map": "/brovan-rus/calculator/static/js/2.70040d63.chunk.js.map",
-    "static/js/3.0970f94d.chunk.js": "/brovan-rus/calculator/static/js/3.0970f94d.chunk.js",
-    "static/js/3.0970f94d.chunk.js.map": "/brovan-rus/calculator/static/js/3.0970f94d.chunk.js.map",
+    "main.js": "/brovan-rus/calculator/static/js/main.9bbe5ab8.chunk.js",
+    "main.js.map": "/brovan-rus/calculator/static/js/main.9bbe5ab8.chunk.js.map",
+    "runtime-main.js": "/brovan-rus/calculator/static/js/runtime-main.ed59fded.js",
+    "runtime-main.js.map": "/brovan-rus/calculator/static/js/runtime-main.ed59fded.js.map",
+    "static/js/2.8ef48b75.chunk.js": "/brovan-rus/calculator/static/js/2.8ef48b75.chunk.js",
+    "static/js/2.8ef48b75.chunk.js.map": "/brovan-rus/calculator/static/js/2.8ef48b75.chunk.js.map",
+    "static/js/3.9f17a083.chunk.js": "/brovan-rus/calculator/static/js/3.9f17a083.chunk.js",
+    "static/js/3.9f17a083.chunk.js.map": "/brovan-rus/calculator/static/js/3.9f17a083.chunk.js.map",
     "index.html": "/brovan-rus/calculator/index.html",
     "static/css/main.481bd211.chunk.css.map": "/brovan-rus/calculator/static/css/main.481bd211.chunk.css.map",
-    "static/js/2.70040d63.chunk.js.LICENSE.txt": "/brovan-rus/calculator/static/js/2.70040d63.chunk.js.LICENSE.txt"
+    "static/js/2.8ef48b75.chunk.js.LICENSE.txt": "/brovan-rus/calculator/static/js/2.8ef48b75.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f3f8f59e.js",
-    "static/js/2.70040d63.chunk.js",
+    "static/js/runtime-main.ed59fded.js",
+    "static/js/2.8ef48b75.chunk.js",
     "static/css/main.481bd211.chunk.css",
-    "static/js/main.4c73e597.chunk.js"
+    "static/js/main.9bbe5ab8.chunk.js"
   ]
 }
