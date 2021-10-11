@@ -1,16 +1,23 @@
 .page {
   display: flex;
   width: 100%;
-  min-width: 480px;
+  min-width: 350px;
   height: 100vh;
   background-color: var(--pink);
 }
 
 .container {
   display: flex;
-  width: clamp(480px, 44%, 550px);
-  height: 90%;
+  width: clamp(500px, 45%, 580px);
+  height: clamp(500px, 90%, 750px);
   margin: auto;
   background-color: var(--lightPink);
   border-radius: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    width: clamp(330px, 95%, 500px);
+    height: clamp(300px, 90%, 650px);
+  }
 }

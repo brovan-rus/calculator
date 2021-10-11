@@ -1,7 +1,7 @@
 .container {
   display: grid;
   width: 85%;
-  height: 95%;
+  height: clamp(560px, 95%, 800px);
   margin: auto;
   background: var(--darkBlue);
   background: linear-gradient(173deg, var(--darkBlue) 0%, var(--blue) 0%, var(--lightBlue) 100%);
@@ -9,4 +9,10 @@
   box-shadow: 2px 5px 16px 0 rgba(0, 0, 0, .7);
   grid-template-columns: 100%;
   grid-template-rows: 1fr 2fr;
+}
+
+@media screen and (max-width: 500px){
+  .container {
+    height: 80%;
+  }
 }
