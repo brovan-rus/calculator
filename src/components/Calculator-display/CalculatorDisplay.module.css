@@ -21,6 +21,7 @@
 
 .primaryLine {
   display: flex;
+  overflow: hidden;
   width: 100%;
   justify-content: space-between;
   padding: 0;

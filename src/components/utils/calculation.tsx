@@ -45,5 +45,5 @@ export const calculation = (expression: string) => {
       }
     }
   });
-  if (Number.isInteger(result)) {return result.toFixed(0)} else {return result.toFixed(8)};
+  if (Number.isInteger(result)) {return result.toFixed(0)} else {return result.toFixed(6)}
 };
